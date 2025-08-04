@@ -3,20 +3,28 @@
 import React from "react";
 import Link from "next/link";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { MdEmail, MdPhone, MdLocationOn, MdAccessTime } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="pt-12 pb-12 bg-transparent">
+    <div className=" bg-transparent">
       <footer className="bg-gradient-to-b from-black via-purple-900 to-purple-800 text-white pt-16 pb-6">
         <div className="container mx-auto px-3 sm:px-10 max-w-7xl grid grid-cols-1 md:grid-cols-4 gap-3">
-
           {/* Contact */}
           <div className="space-y-3">
             <h3 className="text-lg font-semibold">Contact</h3>
-            <p className="text-sm">info@ntechzy.in</p>
-            <p className="text-sm">+91 888 909 8663</p>
-            <p className="text-sm">GF-31, Ang Plaza, Ansal Golf, Near Pari Chowk, Greater Noida</p>
-            <p className="text-sm">Working Hours: Mon - Sat: 9:00 - 06:00</p>
+            <p className="text-sm flex items-center gap-2">
+              <MdEmail className="text-purple-400" /> info@ntechzy.in
+            </p>
+            <p className="text-sm flex items-center gap-2">
+              <MdPhone className="text-purple-400" /> +91 888 909 8663
+            </p>
+            <p className="text-sm flex items-start gap-2">
+              <MdLocationOn className="text-purple-400 mt-1" /> GF-31, Ang Plaza, Ansal Golf, Near Pari Chowk, Greater Noida
+            </p>
+            <p className="text-sm flex items-center gap-2">
+              <MdAccessTime className="text-purple-400" /> Mon - Sat: 9:00 - 06:00
+            </p>
           </div>
 
           {/* Quick Links */}

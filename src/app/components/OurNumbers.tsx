@@ -118,14 +118,15 @@ const OurNumbers: React.FC = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-[#0a0a0a] py-28 px-8 md:px-20 text-white"
+      className=" py-0 px-8 md:px-0 text-white"
       aria-label="Statistics Section"
     >
       {/* Heading */}
       <h2 className="max-w-4xl mx-auto text-center font-extrabold text-white text-5xl md:text-6xl leading-tight tracking-wider relative">
         <span>Our Numbers</span>
         <br />
-        <span>Speak for Themselves</span>
+        <span>Speak for </span>
+        <span>Themselves</span>
         <span
           aria-hidden="true"
           className="block h-1 w-32 bg-[#8a63d2] mx-auto mt-4 rounded-full shadow-[0_0_10px_#8a63d2]"
@@ -138,7 +139,7 @@ const OurNumbers: React.FC = () => {
         {stats.map(({ number, title, description }, i) => (
           <div
             key={title}
-            className="bg-[#121212] p-8 rounded-xl shadow-xl cursor-default transform transition-transform duration-300 hover:-translate-y-2 opacity-0 scale-90 animate-fadeScale"
+            className=" p-8 rounded-xl shadow-xl cursor-default transform transition-transform duration-300 hover:-translate-y-2 opacity-0 scale-90 animate-fadeScale"
             style={{ animationDelay: `${i * 150}ms`, animationFillMode: "forwards" }}
           >
             <p className="text-[#8a63d2] text-7xl font-extrabold select-none">

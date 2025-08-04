@@ -7,97 +7,80 @@ function Websites() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "/wbimg/1.png",
+    title: "Apex Institute of Medical Sciences",
+    link: "https://apexims.in/index.html",
+    thumbnail: "/webimg/apex.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail:
-      "/wbimg/2.png",
+    title: "Dr. Shakuntala Yadav - Indira IVF",
+    link: "https://www.indiraivf.com/fertility-doctors/dr-shakuntala-yadav",
+    thumbnail: "/webimg/indra.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail:
-      "/wbimg/3.png",
-  },
-
-  {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "/wbimg/dhan.png",
+    title: "Mangalayatan University",
+    link: "https://www.mangalayatan.in/",
+    thumbnail: "/webimg/mangal.png",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "/wbimg/career.png",
+    title: "Arnav Ayurvedic Medical College",
+    link: "https://www.arnavayurvedicmedicalcollege.com/",
+    thumbnail: "/webimg/arnav.png",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "/wbimg/1.png",
-  },
-
-  {
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail:
-      "/wbimg/2.png",
+    title: "Naiminath Ayurveda",
+    link: "https://naiminathayurveda.org/i",
+    thumbnail: "/webimg/naimnath.png",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
-    thumbnail:
-      "/wbimg/3.png",
+    title: "Sapna Healthcare",
+    link: "https://www.sapnahealthcare.in/",
+    thumbnail: "/webimg/sapna.png",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "/wbimg/dhan.png",
+    title: "Dr. Shakuntala Ayush",
+    link: "https://drshakuntalaayush.in/",
+    thumbnail: "/webimg/shakuntla.png",
   },
   {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "/wbimg/career.png",
+    title: "Vimla Group",
+    link: "https://vimlagroup.com/index.php",
+    thumbnail: "/webimg/vimla.png",
   },
   {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "/wbimg/3.png",
-  },
-
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "/wbimg/1.png",
+    title: "Mangalayatan (Duplicate)",
+    link: "https://www.mangalayatan.in/",
+    thumbnail: "/webimg/mangal.png",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "/wbimg/dhan.png",
+    title: "Arnav Ayurvedic (Duplicate)",
+    link: "https://www.arnavayurvedicmedicalcollege.com/",
+    thumbnail: "/webimg/arnav.png",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "/wbimg/2.png",
+    title: "Apex (Duplicate)",
+    link: "https://apexims.in/index.html",
+    thumbnail: "/webimg/apex.png",
   },
   {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "/wbimg/career.png",
+    title: "Dr. Shakuntala Ayush (Duplicate)",
+    link: "https://drshakuntalaayush.in/",
+    thumbnail: "/webimg/shakuntla.png",
+  },
+  {
+    title: "Indira IVF (Duplicate)",
+    link: "https://www.indiraivf.com/fertility-doctors/dr-shakuntala-yadav",
+    thumbnail: "/webimg/indra.png",
+  },
+  {
+    title: "Naiminath Ayurveda (Duplicate)",
+    link: "https://naiminathayurveda.org/i",
+    thumbnail: "/webimg/naimnath.png",
+  },
+  {
+    title: "Vimla Group (Duplicate)",
+    link: "https://vimlagroup.com/index.php",
+    thumbnail: "/webimg/vimla.png",
   },
 ];
+
 export default Websites;

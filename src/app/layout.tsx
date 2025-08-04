@@ -3,18 +3,6 @@ import "./globals.css";
 
 import Navbar from "./components/Navbar";
 import { Orbitron } from "next/font/google";
-import Hero from "./components/HeroSection";
-import Services from "./components/Services";
-import Colleges from "./components/Marquee";
-import AboutUs from "./components/AboutUs";
-import NtechzySolutions from "./components/NtechzySolutions";
-import ToolMarquee from "./components/ToolMarquee";
-import OurNumbers from "./components/OurNumbers";
-import HowWeWork from "./components/HowWeWork";
-import WhyChooseUs from "./components/WhyChooseUs";
-import FaqSection from "./components/FaqSection";
-import BuildWithNteczhy from "./components/BuildWithNtechzy";
-import Websites from "./components/Websites";
 import Footer from "./components/Footer";
 
 const orbitron = Orbitron({
@@ -40,21 +28,9 @@ export default function RootLayout({
       >
         <div className="overflow-hidden">
           <Navbar />
-          <Hero />
-          <BuildWithNteczhy/>
-          <Services />
-          <Websites/>
-          <HowWeWork />
-          <Colleges />
-          <WhyChooseUs/>
-          <AboutUs />
-          <NtechzySolutions />
-          <ToolMarquee />
-          <OurNumbers />
-          <FaqSection/>
-          <Footer/>
         </div>
           <main>{children}</main>
+          <Footer/>
       </body>
     </html>
   );
