@@ -7,7 +7,7 @@ const faqs = [
   {
     question: 'What industries do you specialize in?',
     answer:
-      'We’ve worked extensively with education, healthcare, and corporate brands, but our adaptable approach ensures success across any industry.',
+      'We have worked extensively with education, healthcare, and corporate brands, but our adaptable approach ensures success across any industry.',
   },
   {
     question: 'What platforms and technologies do you use?',
