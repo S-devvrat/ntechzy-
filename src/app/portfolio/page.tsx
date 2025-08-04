@@ -1,11 +1,11 @@
 import React from 'react'
+import PortfolioPage from './PortfolioPage'
 const Portfolio = () => {
 
 
   return (
     <>
-    <h1 className='text-7xl text-white mt-20'>
-    </h1>
+    <PortfolioPage/>
     </>
   )
 }
