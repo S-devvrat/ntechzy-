@@ -2,7 +2,7 @@
 
 import React, { use } from 'react';
 import DigitalMarketingPolitics2025 from '../blog-content/digital-marketing-politics-2025';
-import NewPatientsClinic2025 from '../blog-content/new-patients-clinic-2025.tsx';
+import NewPatientsClinic2025 from '../blog-content/new-patients-clinic-2025.';
 import ProfessionalWebsiteUttarPradesh from '../blog-content/professional-website-uttar-pradesh';
 
 const getBlogContent = (slug: string) => {
