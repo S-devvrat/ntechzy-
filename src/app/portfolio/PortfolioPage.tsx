@@ -1,12 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { Project } from "./types";
 import { websiteProjects } from "./data/website";
 import { marketingProjects } from "./data/marketing";
 import { mediaProjects } from "./data/media";
 import { customProjects } from "./data/custom";
-import { Image } from "lucide-react";
 
 const categories: string[] = [
   "All",
@@ -39,12 +39,12 @@ const PortfolioPage: React.FC = () => {
   return (
     <div className="bg-[#0a0a0a] min-h-screen px-4 md:px-24 py-16 text-white">
       {/* Gradient Heading */}
-      <h2 className="text-5xl md:text-6xl font-bold mb-10 text-center bg-gradient-to-r from-white to-[#8a63d2] text-transparent bg-clip-text">
+      <h2 className="text-6xl md:text-7xl py-6 font-bold mb-10 text-center bg-gradient-to-r from-white to-[#8a63d2] text-transparent bg-clip-text">
         Our Projects
       </h2>
 
       {/* Category Filters */}
-      <div className="flex flex-wrap justify-center gap-3 mb-12">
+      <div className="flex  flex-wrap justify-center gap-3 mb-12">
         {categories.map((category) => (
           <button
             key={category}
@@ -74,12 +74,17 @@ const PortfolioPage: React.FC = () => {
               rel="noopener noreferrer"
               className="block bg-[#1a1a1a] rounded-xl p-4 border border-[#3e2b77] hover:border-[#8a63d2] hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-44 object-cover rounded-lg mb-4"
-              />
-              <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
+              {project.image ? (
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  width={500}
+                  height={300}
+                  className="w-full h-44 object-cover rounded-lg mb-4"
+                />
+              ) : null}
+              <h3 className="text-lg font-semibold mb-1">{project.title}</h3>
+              <p className="text-sm italic text-[#8a63d2] mb-1">{project.category}</p>
               <p className="text-[#bfbfbf] text-sm">{project.description}</p>
             </a>
           ))
