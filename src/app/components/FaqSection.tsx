@@ -59,7 +59,7 @@ export default function FaqSection() {
               >
                 <span>{faq.question}</span>
                 <span className="text-[#8a63d2] text-3xl leading-none">
-                  {openIndex === index ? '−' : '+'}
+                  {openIndex === index ? '-' : '+'}
                 </span>
               </button>
 
