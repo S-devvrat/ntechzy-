@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import Image from "next/image";
 
 export function WeBringSkills() {
   const members = [
@@ -47,7 +47,7 @@ export function WeBringSkills() {
             key={index}
             className="bg-[#141414] border border-[#262626] rounded-2xl p-8 flex w-full flex-col items-center transition hover:border-[#8a63d2] hover:shadow-[0_0_20px_#8a63d280]"
           >
-            <img
+            <Image
               src={member.image}
               alt={member.name}
               className="w-24 h-24 rounded-full object-cover border-2 border-[#8a63d2] mb-4"

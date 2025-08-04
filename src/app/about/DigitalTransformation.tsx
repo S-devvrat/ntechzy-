@@ -41,7 +41,7 @@ export function DigitalTransformation() {
           solutions in branding, social media, web development, and business growth.
           <br /><br />
           With a passion for innovation and excellence, <span className="text-white font-semibold">Ntechzy</span> is more than just a company—
-          it's a platform for transformation, empowering students, entrepreneurs, and professionals to
+          It&apos;s  a platform for transformation, empowering students, entrepreneurs, and professionals to
           achieve their goals and thrive in a competitive world.
         </p>
       </motion.div>

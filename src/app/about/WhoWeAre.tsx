@@ -24,7 +24,7 @@ export default function WhoWeAre() {
               At <span className="text-[#8a63d2] font-semibold">Ntechzy</span>, our mission is to reshape the landscape of education and digital innovation by offering forward-thinking solutions that uplift individuals and transform businesses. Our goal is to bridge knowledge gaps, create scalable opportunities, and fuel growth through purpose-driven technologies.
             </p>
             <p className="text-[#bfbfbf] text-lg leading-relaxed">
-              We focus on empowering students—especially those from middle-class backgrounds—by providing them with affordable, high-quality education and digital access that turns potential into achievement. We're driven by a belief that technology and knowledge should be available to everyone, not just a few.
+              We focus on empowering students—especially those from middle-class backgrounds—by providing them with affordable, high-quality education and digital access that turns potential into achievement. We&apos;re driven by a belief that technology and knowledge should be available to everyone, not just a few.
             </p>
             <p className="text-[#bfbfbf] text-lg leading-relaxed">
               Simultaneously, we serve entrepreneurs and businesses by offering comprehensive marketing, branding, and web-based solutions designed to scale and adapt to a fast-changing digital world.
@@ -55,10 +55,10 @@ export default function WhoWeAre() {
               </li>
             </ul>
             <p className="text-[#bfbfbf] text-lg leading-relaxed">
-              Whether it's launching a student's future or accelerating a business’s next big move—we build with intention, excellence, and integrity.
+              Whether it&apos;s launching a student&apos;s future or accelerating a business&apos;s next big move—we build with intention, excellence, and integrity.
             </p>
             <p className="text-[#8a63d2] text-xl font-semibold">
-              At Ntechzy, we're not just providing services. We're building futures—one project, one person, one solution at a time.
+              At Ntechzy, we&apos;re not just providing services. We&apos;re building futures—one project, one person, one solution at a time.
             </p>
           </section>
         </div>

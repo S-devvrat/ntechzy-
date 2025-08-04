@@ -21,7 +21,7 @@ const NewPatientsClinic2025 = () => {
 
       <div className="prose prose-invert prose-lg max-w-none text-[#bfbfbf] space-y-6">
         <p>
-          Attracting new patients to your clinic in 2025 is all about using the right strategies to make your clinic stand out online and build trust. As more people turn to the internet for healthcare information, it’s important to ensure your clinic is visible, accessible, and easy to reach.
+          Attracting new patients to your clinic in 2025 is all about using the right strategies to make your clinic stand out online and build trust. As more people turn to the internet for healthcare information, it&apos;s important to ensure your clinic is visible, accessible, and easy to reach.
         </p>
         <p>
           The healthcare industry is evolving rapidly, and patients now have more options than ever before. To stay ahead of the competition and ensure a steady stream of new patients, clinics must adopt digital strategies that enhance their online presence, build credibility, and provide convenience to potential visitors.
@@ -52,7 +52,7 @@ const NewPatientsClinic2025 = () => {
         </ul>
 
         <h2 className="text-white">4. Get Good Reviews and Testimonials</h2>
-        <p>Online reviews play a major role in influencing a patient’s decision when choosing a clinic.</p>
+        <p>Online reviews play a major role in influencing a patient&apos;s decision when choosing a clinic.</p>
         <ul className="list-disc pl-6">
           <li>Encourage reviews on Google My Business, Facebook, Practo, or Zocdoc.</li>
           <li>Politely ask patients to leave a review after their visit.</li>
@@ -64,7 +64,7 @@ const NewPatientsClinic2025 = () => {
         <ul className="list-disc pl-6">
           <li>Claim and verify your Google My Business listing.</li>
           <li>Ensure NAP (Name, Address, Phone) details are consistent and accurate.</li>
-          <li>Use location-based keywords like "best clinic near me".</li>
+          <li>Use location-based keywords like &quot;best clinic near me&quot;.</li>
           <li>Encourage more Google reviews to increase trust and visibility.</li>
         </ul>
 

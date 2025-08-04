@@ -1,15 +1,14 @@
 import React from 'react'
 
-const Portfolio = () => {
-
-
+const page = () => {
   return (
-    <>
+   <>
     <h1 className='text-7xl text-white mt-20'>
-      Our Projects
+      website
     </h1>
+      
     </>
   )
 }
 
-export default Portfolio
+export default page
