@@ -44,7 +44,7 @@ const PortfolioPage: React.FC = () => {
       </h2>
 
       {/* Category Filters */}
-      <div className="flex  flex-wrap justify-center gap-3 mb-12">
+      <div className="flex flex-wrap justify-center gap-3 mb-12">
         {categories.map((category) => (
           <button
             key={category}
@@ -72,19 +72,25 @@ const PortfolioPage: React.FC = () => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-[#1a1a1a] rounded-xl p-4 border border-[#3e2b77] hover:border-[#8a63d2] hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300"
+              className="group relative block rounded-xl p-4 overflow-hidden border border-transparent transition-all duration-300 bg-[#1a1a1a] hover:shadow-2xl hover:scale-[1.03] hover:border-[#8a63d2] before:absolute before:inset-0 before:rounded-xl before:border before:border-[#8a63d2]/30 before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500"
             >
-              {project.image ? (
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  width={500}
-                  height={300}
-                  className="w-full h-44 object-cover rounded-lg mb-4"
-                />
-              ) : null}
-              <h3 className="text-lg font-semibold mb-1">{project.title}</h3>
-              <p className="text-sm italic text-[#8a63d2] mb-1">{project.category}</p>
+              {project.image && (
+                <div className="overflow-hidden rounded-lg mb-4">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    width={500}
+                    height={300}
+                    className="w-full h-44 object-cover rounded-lg transform transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+              )}
+              <h3 className="text-lg font-semibold mb-1 text-white group-hover:text-[#d1b3ff] transition-colors duration-300">
+                {project.title}
+              </h3>
+              <span className="inline-block text-xs px-3 py-1 mb-2 rounded-full bg-[#3e2b77] text-[#8a63d2] font-medium">
+                {project.category}
+              </span>
               <p className="text-[#bfbfbf] text-sm">{project.description}</p>
             </a>
           ))
