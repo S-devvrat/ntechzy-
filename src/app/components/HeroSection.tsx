@@ -43,7 +43,7 @@ const HeroSection = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white">
             <TextGenerateEffect
               words={'Crafting Futuristic Web Experiences'}
-              className="text-4xl sm:text-5xl md:text-6xl"
+              className="text-4xl sm:text-5xl md:text-6xl text-white"
             />
           </h1>
 
