@@ -34,7 +34,7 @@ const stats: Stat[] = [
   },
 ];
 
-// Number parsing & formatting helpers (same as before)
+// Number parsing & formatting helpers
 function parseNumber(numStr: string): number {
   const clean = numStr.replace(/[+, %]/g, "").toUpperCase();
   if (clean.endsWith("K")) {
@@ -65,7 +65,11 @@ interface CountUpNumberProps {
   play: boolean;
 }
 
-const CountUpNumber: React.FC<CountUpNumberProps> = ({ target, duration = 2000, play }) => {
+const CountUpNumber: React.FC<CountUpNumberProps> = ({
+  target,
+  duration = 2000,
+  play,
+}) => {
   const [count, setCount] = useState(0);
   const targetNum = parseNumber(target);
 
@@ -118,35 +122,38 @@ const OurNumbers: React.FC = () => {
   return (
     <section
       ref={sectionRef}
-      className=" py-0 px-8 md:px-0 text-white"
+      className="py-0 px-8 md:px-0 text-white"
       aria-label="Statistics Section"
     >
       {/* Heading */}
-      <h2 className="max-w-4xl mx-auto text-center font-extrabold text-white text-5xl md:text-6xl leading-tight tracking-wider relative">
-        <span>Our Numbers</span>
-        <br />
-        <span>Speak for </span>
-        <span>Themselves</span>
-        <span
-          aria-hidden="true"
-          className="block h-1 w-32 bg-[#8a63d2] mx-auto mt-4 rounded-full shadow-[0_0_10px_#8a63d2]"
-          style={{ filter: "drop-shadow(0 0 4px #8a63d2)" }}
-        />
-      </h2>
+      <div className="flex justify-center">
+        <h2 className="max-w-4xl text-center font-extrabold text-5xl md:text-6xl leading-tight tracking-wider text-white">
+          <span className="block">Our Numbers</span>
+          <span className="block">Speak for</span>
+          <span className="block">Themselves</span>
+        </h2>
+      </div>
+
+
 
       {/* Stats Grid */}
       <div className="max-w-7xl mx-auto mt-16 grid gap-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {stats.map(({ number, title, description }, i) => (
           <div
             key={title}
-            className=" p-8 rounded-xl shadow-xl cursor-default transform transition-transform duration-300 hover:-translate-y-2 opacity-0 scale-90 animate-fadeScale"
-            style={{ animationDelay: `${i * 150}ms`, animationFillMode: "forwards" }}
+            className="p-8 rounded-xl shadow-xl cursor-default transform transition-transform duration-300 hover:-translate-y-2 opacity-0 scale-90 animate-fadeScale"
+            style={{
+              animationDelay: `${i * 150}ms`,
+              animationFillMode: "forwards",
+            }}
           >
             <p className="text-[#8a63d2] text-7xl font-extrabold select-none">
               <CountUpNumber target={number} play={playAnimation} />
             </p>
             <h3 className="text-white text-2xl font-semibold mt-4">{title}</h3>
-            <p className="text-[#bfbfbf] text-base mt-2 leading-relaxed">{description}</p>
+            <p className="text-[#bfbfbf] text-base mt-2 leading-relaxed">
+              {description}
+            </p>
           </div>
         ))}
       </div>
