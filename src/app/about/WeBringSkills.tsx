@@ -9,7 +9,6 @@ type TeamMember = {
   name: string;
   title: string;
   image: string;
-  twitter: string;
   linkedin: string;
 };
 
@@ -18,28 +17,24 @@ const members: TeamMember[] = [
     name: "Nikhil Sachan",
     title: "Founder & CEO",
     image: "/Team/NikhilSachan.jpg",
-    twitter: "https://twitter.com/nikhil_handle",
-    linkedin: "https://linkedin.com/in/nikhil_handle",
+    linkedin: "https://www.linkedin.com/in/nikhil-sachan-a765a0175/",
   },
   {
     name: "Shivam Dwivedi",
     title: "CTO",
     image: "/Team/shivamdewivedi.jpg",
-    twitter: "https://twitter.com/aarav_handle",
-    linkedin: "https://linkedin.com/in/aarav_handle",
+    linkedin: "https://www.linkedin.com/in/shivdwd/",
   },
   {
     name: "Sneha Awasthi",
     title: "Marketing Head",
     image: "/Team/SnehaAwasthi.jpg",
-    twitter: "https://twitter.com/riya_handle",
-    linkedin: "https://linkedin.com/in/riya_handle",
+    linkedin: "https://www.linkedin.com/in/sneha-awasthi-78955a234/",
   },
   {
     name: "Shivam Singh",
     title: "Lead Designer",
     image: "/Team/shivamsingh.jpg",
-    twitter: "https://twitter.com/dev_handle",
     linkedin: "https://linkedin.com/in/dev_handle",
   },
 ];

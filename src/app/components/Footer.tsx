@@ -98,7 +98,7 @@ const Footer = () => {
 
             <div className="flex space-x-5 text-white text-lg">
               <a
-                href="https://facebook.com/ntechzy"
+                href="https://www.facebook.com/ntechzypvtltd"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -107,7 +107,7 @@ const Footer = () => {
                 <FaFacebookF />
               </a>
               <a
-                href="https://linkedin.com/company/ntechzy"
+                href="https://www.linkedin.com/company/ntechzy/posts/?feedView=all"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -116,7 +116,7 @@ const Footer = () => {
                 <FaLinkedinIn />
               </a>
               <a
-                href="https://instagram.com/ntechzy"
+                href="https://www.instagram.com/ntechzy.in/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"

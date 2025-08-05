@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scrollbar-hide overflow-x-hidden">
       <body
-        className={`${orbitron.variable} font-sans antialiased  text-white overflow-x-hidden`}
+        className={`${orbitron.variable} font-sans antialiased bg-[#0d0d0d] text-white overflow-x-hidden`}
       >
         <div className="overflow-hidden">
           <Navbar />
