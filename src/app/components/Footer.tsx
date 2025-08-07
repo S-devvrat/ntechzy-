@@ -20,7 +20,7 @@ const Footer = () => {
               <MdPhone className="text-purple-400" /> +91 888 909 8663
             </p>
             <p className="text-sm flex items-start gap-2">
-              <MdLocationOn className="text-purple-400 mt-1" /> GF-31, Ang Plaza, Ansal Golf, Near Pari Chowk, Greater Noida
+              <MdLocationOn className="text-purple-400 mt-1" /> 2nd floor, AA -007, Block A, Ansal Golf Link -1, Greater Noida, Uttar Pradesh 201306
             </p>
             <p className="text-sm flex items-center gap-2">
               <MdAccessTime className="text-purple-400" /> Mon - Sat: 9:00 - 06:00

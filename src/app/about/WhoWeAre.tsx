@@ -9,7 +9,7 @@ export default function WhoWeAre() {
         titleComponent={
           <div className="text-center">
             <h2 className="text-3xl
-             md:text-7xl font-extrabold text-white mb-0 :mb-10">
+             md:text-7xl font-extrabold text-white mb-0 :mb-10 py-10">
               Who <span className="text-[#8a63d2]">We Are</span>
             </h2>
           </div>

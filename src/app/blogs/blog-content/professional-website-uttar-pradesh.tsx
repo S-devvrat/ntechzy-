@@ -12,7 +12,7 @@ const ProfessionalWebsiteUttarPradesh = () => {
       <p className="text-[#bfbfbf] text-sm mb-10">Published on August 2, 2025</p>
 
       <Image
-        src="/picture3.jpg"
+        src="/blogs/webdev.jpg"
         alt="Professional Website in Uttar Pradesh"
         width={1200}
         height={600}

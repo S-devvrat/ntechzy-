@@ -12,7 +12,7 @@ const DigitalMarketingPolitics2025 = () => {
       <p className="text-[#bfbfbf] text-sm mb-10">Published on August 2, 2025</p>
 
       <Image
-        src="/picture.jpg"
+        src="/blogs/political.jpg"
         alt="Digital Marketing in Politics"
         width={1200}
         height={600}

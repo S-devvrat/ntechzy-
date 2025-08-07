@@ -12,7 +12,7 @@ const NewPatientsClinic2025 = () => {
       <p className="text-[#bfbfbf] text-sm mb-10">Published on August 2, 2025</p>
 
       <Image
-        src="/picture2.jpg"
+        src="/blogs/patients.jpg"
         alt="Clinic Digital Marketing"
         width={1200}
         height={600}
